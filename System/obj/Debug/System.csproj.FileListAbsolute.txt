@@ -1,0 +1,6 @@
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\bin\Debug\System.dll
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\bin\Debug\System.pdb
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\obj\Debug\System.csproj.AssemblyReference.cache
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\obj\Debug\System.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\obj\Debug\System.dll
+C:\Users\nikit\Desktop\Губернский колледж дз\Инструментальные срдства\System\System\obj\Debug\System.pdb

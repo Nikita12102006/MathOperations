@@ -37,5 +37,38 @@ namespace System
             }
         }
 
+        public static double CalculatePower(double baseNumber, double exponent)
+        {
+
+            // Особый случай: любое число в степени 0 равно 1
+            if (exponent == 0)
+            {
+                return 1;
+            }
+
+            // Особый случай: 0 в отрицательной степени - деление на 0
+            if (baseNumber == 0 && exponent < 0)
+            {
+                throw new ArithmeticException("Невозможно возвести 0 в отрицательную степень");
+            }
+
+            try
+            {
+                double result = Math.Pow(baseNumber, exponent);
+
+                // Проверка на переполнение
+                if (double.IsInfinity(result))
+                {
+                    throw new ArithmeticException("Результат слишком большой и вызвал переполнение");
+                }
+
+                return result;
+            }
+            catch (OverflowException ex)
+            {
+                throw new ArithmeticException("Произошло переполнение при вычислении степени", ex);
+            }
+        }
+
     }
 }
