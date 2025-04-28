@@ -8,6 +8,7 @@ namespace System
 {
     public class Class1
     {
+        // подсчет факториала числа
         public static double Factorial(double x)
         {
             try
@@ -37,6 +38,7 @@ namespace System
             }
         }
 
+        // подсчет степени числа
         public static double CalculatePower(double baseNumber, double exponent)
         {
 
@@ -70,5 +72,32 @@ namespace System
             }
         }
 
+        // метод для вычисления логарифма с произвольным основанием
+        public static double Log(double x, double b)
+        {
+            if (x <= 0 || b <= 0 || b == 1)
+                throw new ArgumentException("Ошибка: x и b должны быть > 0, а b ≠ 1");
+
+            return Math.Log(x) / Math.Log(b);
+        }
+
+        // метод для вычисления n-го числа Фибоначчи (итеративный, эффективный)
+        public static int Fibonacci(int n)
+        {
+            if (n < 0)
+                throw new ArgumentException("n должно быть ≥ 0");
+
+            if (n == 0) return 0;
+            if (n == 1) return 1;
+
+            int a = 0, b = 1, result = 0;
+            for (int i = 2; i <= n; i++)
+            {
+                result = a + b;
+                a = b;
+                b = result;
+            }
+            return result;
+        }
     }
 }
