@@ -70,5 +70,13 @@ namespace System
             }
         }
 
+        // метод для вычисления логарифма с произвольным основанием
+        public static double Log(double x, double b)
+        {
+            if (x <= 0 || b <= 0 || b == 1)
+                throw new ArgumentException("Ошибка: x и b должны быть > 0, а b ≠ 1");
+
+            return Math.Log(x) / Math.Log(b);
+        }
     }
 }
