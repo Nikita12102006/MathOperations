@@ -99,5 +99,29 @@ namespace System
             }
             return result;
         }
+
+        //Метод для нахождени Дискриминанта
+        public static int Discriminant(int a, int b, int c)
+        {
+            try
+            {
+                checked
+                {
+                    int bb = b * b;
+                    int ac4 = 4 * a * c; 
+                    int discriminant = bb - ac4;
+                    return discriminant;
+                }
+            }
+            catch (OverflowException ex)
+            {
+                throw new OverflowException("Произошло переполнение при вычислении дискриминанта. Введите меньшие коэффициенты.", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ошибка при вычислении дискриминанта", ex);
+            }
+        }
+
     }
 }
