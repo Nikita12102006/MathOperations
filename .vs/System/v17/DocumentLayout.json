@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0421\u0430\u0448\u0430\\Desktop\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430_\u041B\u043E\u0433\u0430\u0440\u0438\u0444\u043C_\u0424\u0438\u0431\u043E\u043D\u0430\u0447\u0447\u0438\\MathOperations\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\OneDrive\\Desktop\\\u0412\u0421\u0415, \u0427\u0422\u041E \u0421\u0412\u042F\u0417\u0410\u041D\u041E \u0421 \u0423\u0427\u0415\u0411\u041E\u0419\\3 \u043A\u0443\u0440\u0441\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430\\MathOperations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4FC0351-F4BD-4132-BA69-363D2BCEDCC7}|System\\System.csproj|c:\\users\\\u0441\u0430\u0448\u0430\\desktop\\\u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430_\u043B\u043E\u0433\u0430\u0440\u0438\u0444\u043C_\u0444\u0438\u0431\u043E\u043D\u0430\u0447\u0447\u0438\\mathoperations\\system\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4FC0351-F4BD-4132-BA69-363D2BCEDCC7}|System\\System.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\onedrive\\desktop\\\u0432\u0441\u0435, \u0447\u0442\u043E \u0441\u0432\u044F\u0437\u0430\u043D\u043E \u0441 \u0443\u0447\u0435\u0431\u043E\u0439\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430\\mathoperations\\system\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4FC0351-F4BD-4132-BA69-363D2BCEDCC7}|System\\System.csproj|solutionrelative:system\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430\\Desktop\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430_\u041B\u043E\u0433\u0430\u0440\u0438\u0444\u043C_\u0424\u0438\u0431\u043E\u043D\u0430\u0447\u0447\u0438\\MathOperations\\System\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\OneDrive\\Desktop\\\u0412\u0421\u0415, \u0427\u0422\u041E \u0421\u0412\u042F\u0417\u0410\u041D\u041E \u0421 \u0423\u0427\u0415\u0411\u041E\u0419\\3 \u043A\u0443\u0440\u0441\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430\\MathOperations\\System\\Class1.cs",
               "RelativeDocumentMoniker": "System\\Class1.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430\\Desktop\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430_\u041B\u043E\u0433\u0430\u0440\u0438\u0444\u043C_\u0424\u0438\u0431\u043E\u043D\u0430\u0447\u0447\u0438\\MathOperations\\System\\Class1.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\OneDrive\\Desktop\\\u0412\u0421\u0415, \u0427\u0422\u041E \u0421\u0412\u042F\u0417\u0410\u041D\u041E \u0421 \u0423\u0427\u0415\u0411\u041E\u0419\\3 \u043A\u0443\u0440\u0441\\\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430\u043B\u043A\u0430\\MathOperations\\System\\Class1.cs",
               "RelativeToolTip": "System\\Class1.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGQAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAQwHQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T15:26:00.482Z",
               "EditorCaption": ""

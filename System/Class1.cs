@@ -99,5 +99,52 @@ namespace System
             }
             return result;
         }
+
+        //Метод для нахождени Дискриминанта
+        public static int Discriminant(int a, int b, int c)
+        {
+            try
+            {
+                checked
+                {
+                    int bb = b * b;
+                    int ac4 = 4 * a * c; 
+                    int discriminant = bb - ac4;
+                    return discriminant;
+                }
+            }
+            catch (OverflowException ex)
+            {
+                throw new OverflowException("Произошло переполнение при вычислении дискриминанта. Введите меньшие коэффициенты.", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ошибка при вычислении дискриминанта", ex);
+            }
+        }
+
+        public static double FindNthRoot(double chislo, int stepen, double epsilon = 0.0001)
+        {
+            if (stepen <= 0)
+                throw new ArgumentException("Степень корня должна быть положительной", nameof(stepen));
+
+            if (chislo < 0 && stepen % 2 == 0)
+                throw new ArgumentException("Корень чётной степени из отрицательного числа не определён", nameof(chislo));
+
+            if (chislo == 0)
+                return 0;
+
+            double priblizhenie = chislo;
+            double predydusheePriblizhenie;
+
+            do
+            {
+                predydusheePriblizhenie = priblizhenie;
+                priblizhenie = ((stepen - 1) * priblizhenie + chislo / Math.Pow(priblizhenie, stepen - 1)) / stepen;
+            }
+            while (Math.Abs(priblizhenie - predydusheePriblizhenie) > epsilon);
+
+            return priblizhenie;
+        }
     }
 }
