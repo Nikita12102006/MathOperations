@@ -25,6 +25,6 @@ git push origin feature/my-name
 ````
 Отправка Pull Request
 Вернулись на GitHub, перешли на вкладку "Pull requests".
-Выберали вашу ветку из выпадающего списка "Compare & pull request".
+Выберали ветку из выпадающего списка "Compare & pull request".
 Подтвердили создание pull request'a.
 Нажали "Create pull request".
